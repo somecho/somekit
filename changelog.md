@@ -7,3 +7,11 @@
 - MIT License
 - somekit.vector 
 
+## 0.2.0 - 2022-12-29
+
+### Added
+
+- somekit.color
+- somekit.math
+- somekit.window
+
