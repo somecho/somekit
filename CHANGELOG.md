@@ -66,3 +66,8 @@ New vector module
 #### somekit.window
 - width
 - height
+
+## 0.2.3 
+### Added
+#### somekit.geometry.line
+- length

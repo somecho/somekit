@@ -30,6 +30,14 @@
         y2 (-> angle (Math/sin) (* length) (* 0.5) (+ y))]
     [x1 y1 x2 y2]))
 
+(defn length
+  "Calculates the length of a line"
+  [line]
+  (let [[x1 y1 x2 y2] line]
+    (vec/length [(- x2 x1) (- y2 y1)])))
+
+
+
 (defn line-intersection
   "Returns a vector with two items. The first is the intersection
   between two lines. The second is a boolean of whether the
