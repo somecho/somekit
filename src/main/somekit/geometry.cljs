@@ -1,9 +1,13 @@
-(ns somekit.geometry)
+(ns somekit.geometry
+  (:require [somekit.math :as sm]))
+
+;;for the yet uncategorized functions...
+
 
 (defn polygon
   "Returns a list of 2D vertices of a regular polygon."
   [x y radius num-sides & offset-radians]
-  (let [step (/ m/TAU num-sides)
+  (let [step (/ sm/TAU num-sides)
         offset (first offset-radians)]
     (->> (range num-sides)
          (map #(* % step))

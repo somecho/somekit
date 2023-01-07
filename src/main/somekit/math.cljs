@@ -7,6 +7,8 @@
   [n]
   (mod (abs n) 1))
 
+(defn lerp [a b t] (+ (* (- 1 t) a) (* t b)))
+
 (defn random-bool
   "returns true if random is greater than threshold"
   [threshold]
