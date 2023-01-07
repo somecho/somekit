@@ -71,3 +71,7 @@ New vector module
 ### Added
 #### somekit.geometry.line
 - length
+
+## 0.2.4
+### Fixed
+- added declarations to somekit.window 

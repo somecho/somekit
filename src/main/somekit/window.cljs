@@ -1,5 +1,10 @@
 (ns somekit.window)
 
+(declare width)
+(declare height)
+(declare random-height)
+(declare random-width)
+
 (defn dimensions
   "Returns dimensions of window as a vector. If argument is given,
   height and width gets multiplied by argument."

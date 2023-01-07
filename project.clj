@@ -1,4 +1,4 @@
-(defproject org.clojars.some/somekit "0.2.3"
+(defproject org.clojars.some/somekit "0.2.4"
   :description "Somé's Clojure(Script) creative coding toolkit"
   :url "https://github.com/somecho/somekit"
 
