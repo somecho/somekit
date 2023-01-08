@@ -75,3 +75,13 @@ New vector module
 ## 0.2.4
 ### Fixed
 - added declarations to somekit.window 
+
+## 0.2.5
+### Changed
+- somekit.math/random-bool now has default argument
+
+### Added
+- somekit.math/pi
+- somekit.math/random
+- somekit.math/range-from-center
+- somekit.vec/distance

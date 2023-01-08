@@ -1,10 +1,11 @@
 (ns somekit.vec
   (:require [somekit.math :as sm]))
 
-;; Declarations to keep source in alphabetical order
 (declare from-polar)
 (declare mul)
+(declare length)
 (declare set-length)
+(declare sub)
 
 (defn add
   "adds two vectors of same dimension together"
@@ -29,6 +30,10 @@
 (defn div-scalar
   "Divides vector by a scalar"
   [v scalar] (map #(/ % scalar) v))
+
+(defn distance
+  "Calculates distance between two vectors of same dimension"
+  [v1 v2] (length (sub v1 v2)))
 
 (defn dot
   "Dot product of two vectors"
