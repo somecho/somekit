@@ -1,9 +1,16 @@
 (ns somekit.window)
 
 (declare width)
+(declare halfheight)
+(declare halfwidth)
 (declare height)
 (declare random-height)
 (declare random-width)
+
+
+(defn center
+  "Returns the center of the screen as a 2D Vector"
+  [] [(halfwidth)(halfheight)])
 
 (defn dimensions
   "Returns dimensions of window as a vector. If argument is given,

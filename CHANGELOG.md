@@ -85,3 +85,8 @@ New vector module
 - somekit.math/random
 - somekit.math/range-from-center
 - somekit.vec/distance
+
+## 0.2.6
+### Added
+- somekit.window/center
+
