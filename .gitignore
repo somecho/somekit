@@ -2,8 +2,7 @@ node_modules/
 public/js
 public/
 out/
-out/test
-out/js
+out/test/js
 
 
 /target
