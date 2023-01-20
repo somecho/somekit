@@ -94,4 +94,4 @@
 
 (defn sub-scalar
   "Subtracts scalar from vector"
-  [v scalar] (map #(* % scalar) v))
+  [v scalar] (map #(- % scalar) v))

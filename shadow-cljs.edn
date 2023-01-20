@@ -1,9 +1,13 @@
 ;; shadow-cljs configuration
 {:source-paths
- ["src/main"]
+ ["src/main"
+  "src/tests"]
 
  :dependencies
  []
 
- :builds
- {}}
+ :dev-http {4242 "out/test"}
+ :builds {:test {:target :browser-test
+                 :test-dir "out/test"
+                 :ns-regexp "-test$"
+                 :autorun true}}}
