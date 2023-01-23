@@ -90,9 +90,13 @@ New vector module
 ### Added
 - somekit.window/center
 
-## 0.2.7 - 20.07.2023
+## 0.2.7 - 20.01.2023
 ### Added
 - tests for somekit.vec
 ### Bugfix
 - somekit.vec/sub-scalar
+
+## 0.2.8 - 23.01.2023
+### Changed
+- Merged somekit.vector into somekit.vec
 
