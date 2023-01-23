@@ -1,5 +1,5 @@
 (ns somekit.ca1d
-  (:require [somekit.vector :as svec]))
+  (:require [somekit.vec :as svec]))
 
 
 (defn discrete-rule

@@ -100,3 +100,7 @@ New vector module
 ### Changed
 - Merged somekit.vector into somekit.vec
 
+## 0.2.9 - 23.01.2023
+### Bugfix
+- fix ns dependency in somekit.ca1d
+
